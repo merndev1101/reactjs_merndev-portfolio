@@ -14,7 +14,6 @@ import {
 } from "react-icons/si";
 import { FaHardHat, FaGithub } from "react-icons/fa";
 import AOS from "aos";
-import "aos/dist/aos.css";
 
 // import Marquee from "./smallComponent/marquee";
 

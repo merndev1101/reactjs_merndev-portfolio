@@ -5,7 +5,6 @@ import Project1 from "../images/project1.jpg";
 import Project2 from "../images/project2.jpg";
 import Project3 from "../images/project3.jpg";
 import AOS from "aos";
-import "aos/dist/aos.css";
 
 const WebsiteProjects = () => {
     useEffect(() => {

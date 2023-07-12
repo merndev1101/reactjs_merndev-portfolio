@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { rjB1, rjB2, rjB3, rjB4, rjB5, rjB6, rjB7, rjB8, rjB9, rjB10, rjB11, bBanner, bDesign, BLogo, hostinger, rjLogo, sBlockElements, Figma } from "../images/graphics/designPath";
 
 import AOS from "aos";
-import "aos/dist/aos.css";
 
 const DesignProject = () => {
     useEffect(() => {
