@@ -246,15 +246,6 @@ body {
     border-radius: 9999px;
   }
 }
-/* .marquee-tag-container {
-  display: flex;
-  align-items: center;
-} */
-.marquee-tag-icon {
-  /* padding: 1.25rem;
-  background-color: var(--gray-600); */
-  /* border-radius: 9999px; */
-}
 .marquee-tag {
   margin-left: 0.75rem;
   /* color: ; */
