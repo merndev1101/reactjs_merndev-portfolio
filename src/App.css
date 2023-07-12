@@ -237,9 +237,8 @@ body {
   .marquee-tag-wrapper {
     text-decoration: none;
     color: var(--gray-50);
-    
     font-size: 0.75rem; /* 12px */
-    line-height: 0.5rem; 
+    line-height: 0.5rem;
     font-weight: 300;
     padding: 0.25rem 0.65rem 0.25rem 0.25rem;
     background-color: var(--gray-700);
