@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-
 // import dnewsImg from "../images/dnewsImage.png";
 import Project1 from "../images/project1.jpg";
 import Project2 from "../images/project2.jpg";
