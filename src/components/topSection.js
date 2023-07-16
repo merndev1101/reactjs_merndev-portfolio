@@ -4,12 +4,13 @@ import banner from "./images/profile.jpg";
 const Section = () => {
     return (
         <div  className=" lg:flex flex-row-reverse max-w-full   items-center p-5 sm:p-10 ">
-        <div className=" md:w-2/3 m-auto lg:mr-12  bg-green-600 blur">
+        <div className=" md:w-2/3 m-auto lg:mr-12 ">
                 <img
                     alt="profile"
                     id="bannerImg"
                     src={banner}
-                    className="   relative -top-3 -left-4 border-t-4 border-l-2 rounded"
+                    style={{filter: 'drop-shadow(0 25px 25px rgb(3 5 4 / 0.15))'}}
+                    className="   relative -top-3 -left-4 border-t-4 border-l-2 rounded-xl"
                 />
             </div>
             <div className="   max-w-2xl m-auto  relative   lg:pb-10  text-gray-400">

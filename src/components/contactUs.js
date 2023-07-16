@@ -69,7 +69,7 @@ const ContactUs = () => {
                     <p>
                         © 2023 - Developed by
                     <a rel="noreferrer"href="https://github.com/MERNSTACKDEV1101" target="_blank"
-                        >MERNSTACKDEV</a
+                        >MERNDEV</a
                     >
                     </p>
                 </div>

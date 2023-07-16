@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import Project1 from "../images/project1.jpg";
 import Project2 from "../images/project2.jpg";
 import Project3 from "../images/project3.jpg";
+import Project4 from "../images/project4.jpg";
 import AOS from "aos";
 
 const WebsiteProjects = () => {
@@ -21,8 +22,7 @@ const WebsiteProjects = () => {
                     {/* </span>
                     {" In "}
                     <span className="   underline underline-offset-3 decoration-8 decoration-blue-600 dark:decoration-blue-600">*/}
-                        
-                    </span> 
+                    </span>
                 </h1>
             </div>
 
@@ -155,6 +155,54 @@ const WebsiteProjects = () => {
                                     </a> */}
                                     <a
                                         href="https://therundown.io"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className=" buttonAnimation m-auto inline-flex items-center px-4 py-2 text-sm  text-center text-red-500 font-extrabold  border-2 border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-2 md:focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
+                                    >
+                                        <span className=" buttonCircle w-4 h-4 mr-2 bg-red-500  rounded-full"></span>{" "}
+                                        Live
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    data-aos="flip-left"
+                    data-aos-anchor-placement="bottom-bottom"
+                    className=" h-fit w-fit m-auto lg:m-0 lg:mb-12 relative   rounded-md  overflow-hidden bg-gray-800 mb-12"
+                >
+                    {" "}
+                    <div className=" rotate-border1 w-full h-full absolute bg-gradient-to-b from-green-400   to-gray-800"></div>
+                    <div className=" rotate-border2 w-full h-full absolute bg-gradient-to-t from-pink-400 via-pink-400 to-gray-800"></div>
+                    <div className=" relative  max-w-sm p-1   rounded-lg ">
+                        <div className=" bg-gray-950 rounded-md">
+                            {" "}
+                                <img
+                                    style={{filter: 'drop-shadow(0 25px 25px rgb(3 5 4 / 0.15))'}}
+                                    className="rounded-lg cursor-pointer"
+                                    src={Project4}
+                                    alt="project"
+                                />
+                            <div className="p-10">
+                                    <h5 className=" costomFont mb-2 text-2xl font-bold tracking-tight text-gray-200  cursor-pointer">
+                                        MEMURAI
+                                    </h5>
+                                <p className="mb-3 font-normal text-gray-500">
+                                    This site was built using technical stacks like React.js, Next.js, GraphQL, Node.js.
+                                    I have joined here as a full stack developer.
+                                </p>
+                                <div className="flex justify-between mt-4 space-x-3 md:mt-6">
+                                    {/* <a
+                                        href="https://github.com/DIWAKARKASHYAP/dnews"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white  rounded-lg focus:ring-2 md:focus:ring-4 focus:outline-none  bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
+                                    >
+                                        View Code
+                                    </a> */}
+                                    <a
+                                        href="https://www.memurai.com/"
                                         target="_blank"
                                         rel="noreferrer"
                                         className=" buttonAnimation m-auto inline-flex items-center px-4 py-2 text-sm  text-center text-red-500 font-extrabold  border-2 border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-2 md:focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700"
