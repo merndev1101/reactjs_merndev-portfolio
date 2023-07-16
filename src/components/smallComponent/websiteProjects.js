@@ -179,7 +179,7 @@ const WebsiteProjects = () => {
                         <div className=" bg-gray-950 rounded-md">
                             {" "}
                                 <img
-                                    style={{filter: 'drop-shadow(0 25px 25px rgb(3 5 4 / 0.15))'}}
+                                    
                                     className="rounded-lg cursor-pointer"
                                     src={Project4}
                                     alt="project"
