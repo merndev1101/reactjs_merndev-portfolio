@@ -35,58 +35,58 @@ font-family: 'Abril Fatface', cursive;
 
 
 @keyframes myfirst {
-    /* 0%   {color:red;} */
-    48%  {text-shadow: 4px 4px 7px rgba(255,40,192,1); color: rgba(255,40,192,1); }
-    
-    50%  {color: rgb(156 163 175); text-shadow: none;}
-    /* 75%  {text-shadow: 4px 4px 7px rgba(255,40,192,1);} */
-    /* 100% {color:red; left: 0px; top: 0px;} */
+  /* 0%   {color:red;} */
+  48%  {text-shadow: 4px 4px 7px rgba(255,40,192,1); color: rgba(255,40,192,1); }
+  
+  50%  {color: rgb(156 163 175); text-shadow: none;}
+  /* 75%  {text-shadow: 4px 4px 7px rgba(255,40,192,1);} */
+  /* 100% {color:red; left: 0px; top: 0px;} */
   }
 
   @keyframes bannerImg {
-    0% { position: relative; top: 0px; left: 0px;}
-    /* 100%{ position: relative; top: -11px; left: -19px;} */
+  0% { position: relative; top: 0px; left: 0px;}
+  /* 100%{ position: relative; top: -11px; left: -19px;} */
   }
 
 
   @keyframes skillScroll {
-    0% {
-      transform:translateX(0);
+  0% {
+    transform:translateX(0);
    }
    100% {
-      transform:translateX(-100%);
+    transform:translateX(-100%);
    }
   }
 
   .sun{
-    /* z-index: ; */
+  /* z-index: ; */
 
-    -webkit-box-shadow: 0px 0px 138px 45px rgba(0,0,0,1);
-    -moz-box-shadow: 0px 0px 138px 45px rgba(0,0,0,1);
-    box-shadow: 0px 0px 38px 46px rgba(214,31,103,1);
+  -webkit-box-shadow: 0px 0px 138px 45px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 138px 45px rgba(0,0,0,1);
+  box-shadow: 0px 0px 38px 46px rgba(214,31,103,1);
   }
   .sun2{
-    
+  
 
-    -webkit-box-shadow: 0px 0px 138px 45px rgba(5 ,122, 85,1);
-    -moz-box-shadow: 0px 0px 138px 45px rgba(14 ,159 ,110 ,1);
-    box-shadow: 0px 0px 38px 46px rgba(16, 185, 129 ,1);
+  -webkit-box-shadow: 0px 0px 138px 45px rgba(5 ,122, 85,1);
+  -moz-box-shadow: 0px 0px 138px 45px rgba(14 ,159 ,110 ,1);
+  box-shadow: 0px 0px 38px 46px rgba(16, 185, 129 ,1);
   }
 
   .sun3{
-    
+  
 
-    -webkit-box-shadow: 0px 0px 138px 45px rgba(5 ,122, 85,1);
-    -moz-box-shadow: 0px 0px 138px 45px rgba(14 ,159 ,110 ,1);
-    box-shadow: 0px 0px 38px 46px rgba(227 ,160 ,8,1);
+  -webkit-box-shadow: 0px 0px 138px 45px rgba(5 ,122, 85,1);
+  -moz-box-shadow: 0px 0px 138px 45px rgba(14 ,159 ,110 ,1);
+  box-shadow: 0px 0px 38px 46px rgba(227 ,160 ,8,1);
   }
 
   .sun4{
-    
+  
 
-    -webkit-box-shadow: 0px 0px 138px 45px rgba(5 ,122, 85,1);
-    -moz-box-shadow: 0px 0px 138px 45px rgba(14 ,159 ,110 ,1);
-    box-shadow: 0px 0px 38px 46px rgba(56 ,189, 248,1);
+  -webkit-box-shadow: 0px 0px 138px 45px rgba(5 ,122, 85,1);
+  -moz-box-shadow: 0px 0px 138px 45px rgba(14 ,159 ,110 ,1);
+  box-shadow: 0px 0px 38px 46px rgba(56 ,189, 248,1);
   }
 
 .buttonAnimation{
@@ -101,7 +101,7 @@ font-family: 'Abril Fatface', cursive;
 
 @keyframes button {
   0% {
-    color: white;
+  color: white;
  }
 
  50%{
@@ -117,7 +117,7 @@ font-family: 'Abril Fatface', cursive;
 
 @keyframes buttonCircle {
   0% {
-    background: white;
+  background: white;
  }
  50%{
   background: red;
@@ -125,7 +125,7 @@ font-family: 'Abril Fatface', cursive;
  }
 
  100% {
-    background: white;
+  background: white;
 
  }
 }
@@ -174,7 +174,7 @@ font-family: 'Abril Fatface', cursive;
 transform: rotate(0deg);
   }
   100%{
-    transform: rotate(360deg);
+  transform: rotate(360deg);
   }
 }
 
@@ -235,14 +235,14 @@ body {
 }
 @media (max-width: 768px){
   .marquee-tag-wrapper {
-    text-decoration: none;
-    color: var(--gray-50);
-    font-size: 0.75rem; /* 12px */
-    line-height: 0.5rem;
-    font-weight: 300;
-    padding: 0.25rem 0.65rem 0.25rem 0.25rem;
-    background-color: var(--gray-700);
-    border-radius: 9999px;
+  text-decoration: none;
+  color: var(--gray-50);
+  font-size: 0.75rem; /* 12px */
+  line-height: 0.5rem;
+  font-weight: 300;
+  padding: 0.25rem 0.65rem 0.25rem 0.25rem;
+  background-color: var(--gray-700);
+  border-radius: 9999px;
   }
 }
 .marquee-tag {
@@ -251,15 +251,15 @@ body {
 }
 @keyframes scroll-left {
   from {
-    transform: translateX(var(--scroll-start));
+  transform: translateX(var(--scroll-start));
   }
   to {
-    transform: translateX(var(--scroll-end));
+  transform: translateX(var(--scroll-end));
   }
 }
 @media (prefers-reduced-motion: reduce) {
   .marquee-group {
-    animation-play-state: paused;
+  animation-play-state: paused;
   }
 }
 
